@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+ 
+  <!-- cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--  -->
+ <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+  <!-- header-sec -->
+   <header>
+    <nav>
+      <div class="navbar bg-base-100 justify-around">
+        <div class="">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          </div>
+          <a class="btn btn-ghost text-xl text-black"><span class="border-solid px-1 arow-c w-7 rounded-full text-black">&#8599;</span>Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <a class="btn arow-c rounded-3xl text-black">Button<span class="border-solid p-1 w-6 bg-black rounded-full text-white">&#8599;</span></a>
+        </div>
+      </div>
+    </nav>
+    <!-- nav-complate -->
+     <section>
+      <div class="a w-1/2">
+        <img src="assets/banner.png" alt="banner">
+
+
+      </div>
+      <div class="text-center">
+        <h1 class="text-7xl font-semibold text-black my-5 px-38">A barn house of this design has a striking appearance</h1>
+        <p class="text my-10 px-40">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <button class="btn btn-2 rounded-3xl text-black">View Details<span class="border-solid p-1 w-6 bg-black rounded-full text-white">&#8599;</span></a></button>
+      </div>
+     </section>
+   </header>
 </body>
-</html>
