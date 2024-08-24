@@ -31,4 +31,7 @@
 .forth{
     background-color: #77AAEA;
 }
-
+.d{
+    display: grid;
+    grid-template-columns: ;
+}
