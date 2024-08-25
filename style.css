@@ -16,9 +16,7 @@
 .btn-2{
     background-color: rgba(171, 239, 95, 0.5);
 }
-.a{
-    margin: 0px auto;
-}
+
 .fast{
     background-color: #E7C1D3;
 }
@@ -31,20 +29,12 @@
 .forth{
     background-color: #77AAEA;
 }
-.d{
-    display: grid;
-    grid-template-columns: ;
-}
 .bg-img{
     background-image: url(assets/bg.jpg);
-    width: 100%;
     background-repeat: no-repeat
 }
 
-.n{
-    
-    margin: 0 auto;
-}
+
 .bg{
     background-color: #E9E9E9;
 }
