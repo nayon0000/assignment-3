@@ -30,8 +30,9 @@
     background-color: #77AAEA;
 }
 .bg-img{
-    background-image: url(assets/bg.jpg);
-    background-repeat: no-repeat
+    background-image: url(assets/bg\ \(1\).jpg);
+    background-repeat: no-repeat;
+
 }
 
 
