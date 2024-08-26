@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     font-family: "Poppins", sans-serif;}
+    
 .arow-c{
     background-color: #ABEF5F;
 }
@@ -34,39 +35,8 @@
     background-repeat: no-repeat;
 
 }
-
-
 .bg{
     background-color: #E9E9E9;
 }
 
 
-
-<!-- <table class="a ">
-<tr>
-  <td><input type="text" placeholder="First Name*" class="input input-ghost rounded-full bg-black mt-3" /></td>
-  <td>
-    <input type="text" placeholder="Last Name*" class="input input-ghost rounded-full bg-black mt-3" />
-</td>
-</tr>
-<tr>
-  <td>
-    <input type="text" placeholder="Phone Number*" class="input input-ghost rounded-full bg-black mt-3" />
-  </td>
-  <td>
-    <input type="text" placeholder="Email Number*" class="input input-ghost rounded-full bg-black mt-3" />
-  </td>
-</tr>
-<tr>
-  <td colspan="2">
-    <textarea
-placeholder="Bio"
-class="textarea textarea-lg w-full mt-3 bg-black rounded-2xl h-40"></textarea>
-  </td>
-</tr>
-<tr>
-  <td colspan="2">
-    <button class="btn btn-ghost text-xl text-black w-full rounded-full arow-c mt-3">Send Mail<span class="border-solid px-1 bg-black text-white w-7 rounded-full text-black">&#8599;</span></button>
-  </td>
-</tr>
-</table> -->
